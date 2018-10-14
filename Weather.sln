@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather", "Weather\Weather.csproj", "{68CA9159-2F54-4AB2-AB7B-26E5CE081D9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68CA9159-2F54-4AB2-AB7B-26E5CE081D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CA9159-2F54-4AB2-AB7B-26E5CE081D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CA9159-2F54-4AB2-AB7B-26E5CE081D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CA9159-2F54-4AB2-AB7B-26E5CE081D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C485BD72-A03C-4330-A690-1C168FB0CA21}
+	EndGlobalSection
+EndGlobal

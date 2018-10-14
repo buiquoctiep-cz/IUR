@@ -1,0 +1,15 @@
+﻿<Window x:Class="Weather.WindowAddCity"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Weather"
+        mc:Ignorable="d"
+        Title="WindowAddCity" Height="119.15" Width="179.191">
+    <Grid>
+        <TextBox x:Name="TextBoxCity" Margin="68.137,14,10,0" TextWrapping="Wrap" Height="21.96" VerticalAlignment="Top"/>
+        <Label Content="New city" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ButtonStorno" Content="Storno" HorizontalAlignment="Right" Height="19.96" Margin="10" VerticalAlignment="Bottom" Width="70"/>
+        <Button x:Name="ButtonOk" Content="Ok" Click="ButtonOk_Click" Width="70" HorizontalAlignment="Left" Height="19.96" Margin="10" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
